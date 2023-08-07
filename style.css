@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: #C5FAD5 ; */
+  background-image: linear-gradient(
+    60deg,
+    #c5fad5,
+    #aa96da,
+    #c5fad5,
+    #aa96da,
+    #c5fad5
+  );
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #aa96da;
+}
+
+.user_form {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  /* background-color: blue; */
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.card {
+  display: flexbox;
+  background-color: #ffffd2;
+  height: 60%;
+  width: 40%;
+  /* border: 1px solid #007BFF; */
+  border-radius: 20px;
+  padding: 10% 4% 4% 4%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+input {
+  height: 1.2rem;
+  margin: 4%;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 10px;
+}
+
+input:invalid:focus {
+  border: 4px solid red;
+}
+
+button {
+  margin: 10% 0 0 0;
+  padding: 4% 10%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #aa96da;
+  color: #ffffd2;
+  border: 2px solid #c5fad5;
+}
+
+.table {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+}
+
+h1,
+caption,
+th {
+  color: black;
+}
+
+.entry {
+  display: grid;
+  background-color: #ffffd2;
+  width: 90%;
+  max-height: 80%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+caption {
+  font-size: 2rem;
+}
+
+#scrollableDiv::-webkit-scrollbar {
+  width: 10px;
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+#scrollableDiv {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}

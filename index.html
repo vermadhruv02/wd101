@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="user_form">
+        <div class="card">
+            <h1>Registration Form</h1><br>
+<form id="form">
+
+    <label for="name">Name</label>
+    <input required type="text" id="name" name="name">
+    <br>
+    
+    <label for="email">Email</label>
+    <input required type="email" id="email" name="email" placeholder="username@mail.com">
+    <br>
+
+    <label for="password">Password</label>
+    <input required type="password" id="password" name="password">
+    <br>
+
+    <label for="dob">Date of Birth</label>
+    <input required type="date" id="dob" name="dob">
+    <br>
+
+    <label  for="acceptTerms">Accept Terms & Conditions</label>
+    <input required type="checkbox" id="acceptTerms" name="acceptTerms">
+    <br>
+
+    <button id="submit" type="submit">Submit</button>
+ </form>
+
+</div>
+</div>
+ <div class="table">
+    <div class="entry" id="scrollableDiv">
+        <table cellpadding="25" id="entry-table" class="table-auto">
+            <caption>
+              Entries
+            </caption>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Dob</th>
+              <th>Accepted terms?</th>
+            </tr>
+          </table>
+    </div>
+ </div>
+ <script src = "index.js"></script>
+</body>
+</html>
